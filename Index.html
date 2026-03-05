@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio — Ephraim W. Prayoga</title>
+    <link rel="icon" type="image/x-icon" href="../Asset/favicon_io_zip/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="../Asset/favicon_io_zip/favicon.svg">
+    <link rel="apple-touch-icon" href="../Asset/favicon_io_zip/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Asset/favicon_io_zip/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Asset/favicon_io_zip/favicon-16x16.png">
+    <link rel="stylesheet" href="../Asset/css/script.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#home">Ephraim<span class="accent">.</span></a>
+            <div class="header-clock" id="headerClock"></div> 
+            <nav class="nav" id="nav">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Index.html#projects">Projects</a></li>
+                    <li><a href="Index.html#about">About</a></li>
+                    <li><a href="Index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-left">
+                    <div class="hero-title">
+                        <h1>Welcome to my portfolio!</h1>
+                    </div>
+                    <p class="lead">In here you can know more about me, but sadly not all but happily many!</p>
+                    <div class="hero-cta">
+                        <a class="btn primary" href="Index.html#projects">See Projects</a>
+                        <a class="btn outline" href="Index.html#contact">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="device-mock">
+                        <div class="screen">
+                            <img src="../Asset/image/Wilsonfoto.jpeg" alt="Wilson photo" class="screen-img" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2 class="section-title">Selected Projects</h2>
+                <div class="grid projects-grid">
+                    <article class="card">
+                        <div class="card-media" style="background-image:url('../Asset/image/ARC170%20lego.jpeg');background-size:cover;background-position:center"></div>
+                        <div class="card-body">
+                            <h3>Collecting Legos</h3>
+                            <p>I mostly collect Legos and build interesting structures with them, however I always favorite the Star Wars lego version.</p>
+                            <a class="card-link" href="lego.html">Click here to see →</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-media" style="background-image:url('../Asset/image/channelprofile.jpg');background-size:cover;background-position:center"></div>
+                        <div class="card-body">
+                            <h3>YouTube Channel</h3>
+                            <p>Check out my YouTube channel for gaming and creative content.</p>
+                            <a class="card-link" href="youtube.html">Click here to see →</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-media" style="background-image:url('../Asset/image/f22raptor.jpg');background-size:cover;background-position:center"></div>
+                        <div class="card-body">
+                            <h3>Military Technology</h3>
+                            <p>Notes and images about modern military aircraft and systems.</p>
+                            <a class="card-link" href="militarytechnology.html">Click here to see →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container about-grid">
+                <div>
+                    <h2>About</h2>
+                    <p>I’m an Information Systems student in UPH stuying great things together with my proffesor including the one who check my code.</p>
+                    <ul class="skills">
+                        <li>Content creator</li>
+                        <li>Stopmotions Skills</li>
+                        <li> Collector</li>
+                    </ul>
+                </div>
+                <div class="about-card">
+                    <h3>Experience</h3>
+                    <p>Working on campus projects and personal builds focusing on real-world constraints and usability.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Interested in collaborating? Send a message. (LEGO stopmotions request are welcome!)</p>
+                <form class="contact-form" action="#">
+                    <input type="text" name="name" placeholder="Your name" required />
+                    <input type="email" name="email" placeholder="Your email" required />
+                    <textarea name="message" rows="5" placeholder="Message" required></textarea>
+                    <button class="btn primary" type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>© <span id="year"></span> Ephraim Wilson Prayoga</div>
+            <div class="footer-links"><a href="#">Privacy</a> · <a href="#">Terms</a></div>
+        </div>
+    </footer>
+
+    <script src="../Asset/js/script.js"></script>
+</body>
+</html>

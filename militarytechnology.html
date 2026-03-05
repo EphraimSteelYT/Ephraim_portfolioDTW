@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Military Technology — Ephraim W. Prayoga</title>
+  <link rel="icon" type="image/x-icon" href="../Asset/favicon_io_zip/favicon.ico">
+  <link rel="icon" type="image/svg+xml" href="../Asset/favicon_io_zip/favicon.svg">
+  <link rel="apple-touch-icon" href="../Asset/favicon_io_zip/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../Asset/favicon_io_zip/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../Asset/favicon_io_zip/favicon-16x16.png">
+  <link rel="stylesheet" href="../Asset/css/script.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="Index.html">Ephraim<span class="accent">.</span></a>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Military Technology</h1>
+    <p>Images and notes about aircraft and modern military systems.</p>
+    <div class="lego-grid">
+      <img src="../Asset/image/f22raptor.jpg" alt="F-22 Raptor">
+    </div>
+
+    <section class="tactical-display">
+        <div class="hud-box">
+            <h3><span class="blink">●</span> F-22 RAPTOR | SYSTEMS_STATUS</h3>
+            <div class="data-grid">
+                <div class="data-item">
+                    <label>STEALTH_PROFILE:</label>
+                    <span class="value">ACTIVE (RCS < 0.0001 m²)</span>
+                </div>
+                <div class="data-item">
+                    <label>ENGINE_THRUST:</label>
+                    <span class="value" id="thrust-output">70,000 LBF</span>
+                </div>
+                <div class="data-item">
+                    <label>MAX_SPEED:</label>
+                    <span class="value">MACH 2.25</span>
+                </div>
+                <div class="data-item">
+                    <label>SENSORS:</label>
+                    <span class="value">AN/APG-77 AESA</span>
+                </div>
+            </div>
+            <button class="btn-engage" onclick="engageAfterburner()">ENGAGE AFTERBURNER</button>
+        </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Ephraim Wilson Prayoga</div>
+    </div>
+  </footer>
+
+  <script src="../Asset/js/script.js"></script>
+</body>
+</html>
